@@ -2,4 +2,97 @@
 	box-sizing: border-box;
 	margin: 0;
 	padding: 0;
+	text-decoration: none;
+}
+@import url('https://fonts.googleapis.com/css?family=Dancing+Script');
+@import url('https://fonts.googleapis.com/css?family=Exo');
+
+.containerheader{
+	display: flex;
+	justify-content: flex-end;
+	margin-right: 15px;
+}
+.containerheader__menu{
+	display: flex;
+	justify-content: flex-end;
+}
+.containerheader__link{
+	font-size: 20px;
+	color: black;
+}
+.containermain{
+
+}
+.containermain__bloco{
+	display: flex;
+	justify-content: center;
+}
+.containermain__bloco__image{
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+	position: relative;
+	top: 150px;
+	right: 30%;
+}
+.containermain__bloco2{
+	display: flex;
+	justify-content: center;
+}
+@keyframes titulo{
+ 	0%   {color: #FF0E00;}
+  	25%  {color: #256AFF;}
+  	50%  {color: #FF2ADA;}
+  	100% {color: #FF590D;}
+}
+.containermain__bloco2__titulo{
+	font-size: 40px;
+	animation-name: titulo;
+	animation-iteration-count: infinite;
+	animation-duration: 3s;
+	animation-timing-function: 2s;
+	animation-direction: alternate;
+	font-weight: 10;
+	font-family: 'Dancing Script', cursive;
+}
+.containermain__bloco2__subtitulo{
+	font-size: 25px;
+	animation-name: titulo;
+	animation-iteration-count: infinite;
+	animation-duration: 3s;
+	animation-timing-function: 2s;
+	animation-direction: alternate;	
+	font-weight: 10;
+	font-family: 'Dancing Script', cursive;
+	margin-top: 45px;
+	margin-right: 10vw;
+}
+.containermain__bloco3{
+	display: flex;
+	justify-content: center;
+}
+.containermain__bloco3__paragrafo{
+	display: block;
+	width: 350px;
+	height: 150px;
+	box-shadow: 10px 10px 10px;
+	color: black;
+	margin-top: 10px;
+	margin-right: 50px;
+	font-family: 'Exo', sans-serif;
+}
+.containerfooter{
+	display: flex;
+	justify-content: center;
+	margin-right: 17vw;
+}
+.containerfooter__facebook{
+	width: 25px;
+	height: 25px;
+	margin-top: 27px;
+}
+.containerfooter__github, .containerfooter__linkedin, .containerfooter__instagram{
+	width: 40px;
+	height: 40px;
+	margin-top: 20px;
 }
