@@ -10,7 +10,6 @@
 .containerheader{
 	display: flex;
 	justify-content: flex-end;
-	margin-right: 15px;
 }
 .containerheader__menu{
 	display: flex;
@@ -19,6 +18,7 @@
 .containerheader__link{
 	font-size: 20px;
 	color: black;
+	margin-right: 70px;
 }
 .containermain{
 
@@ -75,7 +75,7 @@
 	display: block;
 	width: 350px;
 	height: 150px;
-	box-shadow: 10px 10px 10px;
+	box-shadow: 10px 10px 20px;
 	color: black;
 	margin-top: 10px;
 	margin-right: 50px;
